@@ -10,4 +10,13 @@
     <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Reqnroll" Version="3.3.4" />
+    <PackageReference Include="xunit.runner.console" Version="2.9.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="xunit.v3.extensibility.core" Version="3.2.2" />
+  </ItemGroup>
 </Project>
